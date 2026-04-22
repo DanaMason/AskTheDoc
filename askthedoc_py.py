@@ -23,7 +23,7 @@ from docx import Document
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-APP_TITLE = "Local Document RAG Chat"
+APP_TITLE = "Mason's RAG Assistant"
 DEFAULT_LLM = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 900
